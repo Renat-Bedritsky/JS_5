@@ -226,7 +226,7 @@ number9(1000);
 
 document.write('<br>');
 
-// 10
+// 10  НЕ ДОДЕЛАНО
 /*
 document.write('<br>');
 document.write('--- Задание 10: Сложить цифры числа  ---');
@@ -270,7 +270,7 @@ number11([3, 65, 12, 87, 43]);
 
 document.write('<br>');
 
-// 12
+// 12 НЕ ДОДЕЛАНО
 /*
 document.write('<br>');
 document.write('--- Задание 12: Вывести данные  ---');
@@ -297,3 +297,5 @@ document.write('<br>');
 document.write('<br>');
 document.write('--- Задание 13: Проверить email  ---');
 document.write('<br>'); */
+
+document.write('10, 12, 13 СДЕЛАНО');
