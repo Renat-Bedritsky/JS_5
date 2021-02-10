@@ -298,4 +298,4 @@ document.write('<br>');
 document.write('--- Задание 13: Проверить email  ---');
 document.write('<br>'); */
 
-document.write('10, 12, 13 СДЕЛАНО');
+document.write('10, 12, 13 НЕ СДЕЛАНО');
