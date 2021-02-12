@@ -233,6 +233,7 @@ number11([3, 65, 12, 87, 43]);
 // Задание 12
 
 document.write(' <br><br> --- Задание 12: Вывести данные  --- <br> ');
+document.write(' Результат выведен в консоль <br> ');
 
 function number12() {
 
@@ -320,3 +321,4 @@ number12();
 // Задание 13
 
 document.write('<br><br> --- Задание 13: Проверить email  --- <br> ');
+document.write(' Не сделал ');
