@@ -1,8 +1,6 @@
-// 1
+// Задание 1
 
-document.write('<br>');
-document.write('--- Задание 1: Функция, которая отнимает от первого числа второе и делит на третье ---');
-document.write('<br>');
+document.write(' <br> --- Задание 1: Функция, которая отнимает от первого числа второе и делит на третье --- <br> ');
 
 function number1(a, b, c) {
     result1 = (a - b) / c
@@ -10,13 +8,9 @@ function number1(a, b, c) {
 number1(8, 2, 3);
 document.write(result1);
 
-document.write('<br>');
+// Задание 2
 
-// 2
-
-document.write('<br>');
-document.write('--- Задание 2: Функцию, которая возвращает куб числа и его квадрат ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 2: Функцию, которая возвращает куб числа и его квадрат --- <br> ');
 
 function number2(a) {
     cub2 = a * a * a;
@@ -26,13 +20,11 @@ function number2(a) {
 number2(4);
 
 document.write(`Куб числа: ${cub2} <br>`);
-document.write(`Квадрат числа: ${square2} <br>`);
+document.write(`Квадрат числа: ${square2}`);
 
-// 3
+// Задание 3
 
-document.write('<br>');
-document.write('--- Задание 3: Функция min и max, которые возвращают меньшее и большее из чисел a и b. ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 3: Функция min и max, которые возвращают меньшее и большее из чисел a и b --- <br> ');
 
 function number3(a, b) {
     if (a < b) {
@@ -47,13 +39,11 @@ function number3(a, b) {
 number3(83, 28);
 
 document.write(`Минимальное число: ${min} <br>`);
-document.write(`Максимальное число: ${max} <br>`);
+document.write(`Максимальное число: ${max}`);
 
-// 4
+// Задание 4
 
-document.write('<br>');
-document.write('--- Задание 4: Первая ф-ция должна возвращать массив, вторая – выводить полученный массив ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 4: Первая ф-ция должна возвращать массив, вторая – выводить полученный массив --- <br> ');
 
 let mass4 = [];
 
@@ -75,13 +65,9 @@ function coun4() {
 number4();
 coun4();
 
-document.write('<br>');
+// Задание 5
 
-// 5
-
-document.write('<br>');
-document.write('--- Задание 5: Функция, которая проверяет чётное число или нет ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 5: Функция, которая проверяет чётное число или нет --- <br> ');
 
 function isEven(num5) {
     return (num5 % 2 == 0) ? true : false;
@@ -90,13 +76,9 @@ function isEven(num5) {
 let result5 = isEven(136);
 document.write(result5);
 
-document.write('<br>');
+// Задание 6
 
-// 6
-
-document.write('<br>');
-document.write('--- Задание 6: Вывести из массива только чётные числа, используя ф-ию из 5 задания  ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 6: Вывести из массива только чётные числа, используя ф-ию из 5 задания --- <br> ');
 
 let mass6 = [6, 5, 98, 32, 65, 834, 905, 236, 547, 23, 54],
     array6 = [];
@@ -112,13 +94,9 @@ function isEven2() {
 isEven2(mass6);
 document.write(array6);
 
-document.write('<br>');
+// Задание 7
 
-// 7
-
-document.write('<br>');
-document.write('--- Задание 7: Функция, которая рисует пирамидку  ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 7: Функция, которая рисует пирамидку --- <br> ');
 
 let mass7 = [],
     num7;
@@ -143,15 +121,13 @@ function number7(a) {
         }
     }
 }
-number7('9');
+number7(7);
 
-document.write('<br>');
+// Задание 8
 
-// 8
+document.write(' <br><br> --- Задание 8: Первая ф-ция рисует равнобедренный треугольник из звездочек, вторая такой же треугольник, но перевёрнутый --- <br> ');
 
-document.write('<br>');
-document.write('--- Задание 8: Первая ф-ция рисует равнобедренный треугольник из звездочек, вторая такой же треугольник, но перевёрнутый  ---');
-document.write('<br>');
+document.write('<br> Обычный треугольник: <br><br>')
 
 let num8 = 0;
 
@@ -175,6 +151,8 @@ function number8(a){
 }
 
 number8(5);
+
+document.write('<br> Перевёрнутый треугольник: <br><br>')
 
 function number8_2(a) {
     dex1 = a;
@@ -201,13 +179,9 @@ function number8_2(a) {
 
 number8_2(5);
 
-document.write('<br>');
+// Задание 9
 
-// 9
-
-document.write('<br>');
-document.write('--- Задание 9: Ф-ция, которая возвращает массив заполненный числами Фибоначи от 0 до 1000.  ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 9: Ф-ция, которая возвращает массив заполненный числами Фибоначи от 0 до 1000 --- <br> ');
 
 let mass9 = [];
 
@@ -224,39 +198,27 @@ function number9(a) {
 
 number9(1000);
 
-document.write('<br>');
+// Задание 10
 
-// 10  НЕ ДОДЕЛАНО
-/*
-document.write('<br>');
-document.write('--- Задание 10: Сложить цифры числа  ---');
-document.write('<br>');
-
-let mass10 = [],
-    array10 = [],
-    num10 = 0;
+document.write(' <br><br> --- Задание 10: Сложить цифры числа --- <br> ');
 
 function number10(a) {
-    mass10.push(a);
-    if(mass10[0] >= 10) {
-        mass10[0] = [];
-        array10.push(mass10[0][0])
-        document.write(array10);
+    let result10 = 0;
+    if(a >= 10) {
+        a = String(a);
+        for(let i = 0; i < a.length; i++) {
+            result10 += Number(a[i]);
+        }
+        a = number10(result10);
     }
-    else if(mass10[0] < 10) {
-        console.log(a);
-    }
+    return a;
 }
 
-number10(10);
+document.write(number10(55));
 
-document.write('<br>'); */
+// Задание 11
 
-// 11
-
-document.write('<br>');
-document.write('--- Задание 11: Последовательно вывести из массива элементы с числами, используя рекурсию и не используя цикл..  ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 11: Последовательно вывести из массива элементы с числами, используя рекурсию и не используя цикл --- <br> ');
 
 function number11(array) {
     document.write(`${array[i]} `);
@@ -268,34 +230,93 @@ let i = 0;
 
 number11([3, 65, 12, 87, 43]);
 
-document.write('<br>');
+// Задание 12
 
-// 12 НЕ ДОДЕЛАНО
-/*
-document.write('<br>');
-document.write('--- Задание 12: Вывести данные  ---');
-document.write('<br>');
+document.write(' <br><br> --- Задание 12: Вывести данные  --- <br> ');
 
 function number12() {
+
     firstName = prompt('Ваше имя?');
+    while(firstName == null || firstName == Number(firstName) || firstName.length < 2) {
+        firstName = prompt('Неправильно. Введите имя');
+    }
+
     surname = prompt('Ваша фамилия?');
+    while(surname == null || surname == Number(surname) || surname.length < 2) {
+        surname = prompt('Неправильно. Введите фамилию');
+    }
+
     lastName = prompt('Ваше отчество?');
+    while(lastName == null || lastName == Number(lastName) || lastName.length < 2) {
+        lastName = prompt('Неправильно. Введите отчество');
+    }
+
     numGroup = prompt('Номер Вашей группы?');
-    console.log('******************************');
-    console.log('* Домашняя работа: "Функции" *');
-    console.log(`* Выполнил студент гр. ${numGroup} *`);
-    console.log(`* ${surname} ${firstName} ${lastName} *`);
-    console.log('******************************');
+    while(numGroup == null) {
+        numGroup = prompt('Неправильно. Введите номер группы');
+    }
+
+    margin = '';
+    widthWork = '';
+    widthA = '';
+    widthGroup = '';
+    widthB = '';
+    widthNames = '';
+    widthC = '';
+
+    work = ' Домашняя работа: "Функции" ';
+    group = ` Выполнил студент гр. ${numGroup} `;
+    allNames = ` ${surname} ${firstName} ${lastName} `;
+
+    function width() {
+        for(i = 0; i < widthA; i++) {
+            widthWork += ' ';
+        }
+        for(i = 0; i < widthB; i++) {
+            widthGroup += ' ';
+        }
+        for(i = 0; i < widthC; i++) {
+            widthNames += ' ';
+        }
+    }
+
+    if(work.length >= group.length && work.length >= allNames.length) {
+        for(i = -2; i < work.length; i++) {
+            margin += '*'; 
+        }
+        widthA = 0;
+        widthB = work.length - group.length;
+        widthC = work.length - allNames.length;
+        width();
+    }
+    else if(group.length > allNames.length && group.length > work.length) {
+        for(i = -2; i < group.length; i++) {
+            margin += '*'; 
+        }
+        widthA = group.length - work.length;
+        widthB = 0;
+        widthC = group.length - allNames.length;
+        width();
+    }
+    else if(allNames.length > work.length && allNames.length > group.length) {
+        for(i = -2; i < allNames.length; i++) {
+            margin += '*'; 
+        }
+        widthA = allNames.length - work.length;
+        widthB = allNames.length - group.length;
+        widthC = 0;
+        width();
+    }
+
+    console.log(margin);
+    console.log(`*${work}${widthWork}*`);
+    console.log(`*${group}${widthGroup}*`);
+    console.log(`*${allNames}${widthNames}*`);
+    console.log(margin);
 }
 
 number12();
 
-document.write('<br>');
+// Задание 13
 
-// 13
-
-document.write('<br>');
-document.write('--- Задание 13: Проверить email  ---');
-document.write('<br>'); */
-
-document.write('10, 12, 13 НЕ СДЕЛАНО');
+document.write('<br><br> --- Задание 13: Проверить email  --- <br> ');
